@@ -27,7 +27,7 @@ function App() {
           <input type="text" placeholder='Room ID'
             onChange={(event) => { setRoom(event.target.value) }} />
 
-          <button onClick={joinRoom}>Join a room</button>
+          <button onClick={joinRoom}>Join chat room</button>
         </div>
       ) :
         (
